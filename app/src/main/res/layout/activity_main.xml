@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.akf.easyplay.ActivityMain">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="matrix"
+        app:srcCompat="@drawable/background"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="-25dp" />
+
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Next"
+        android:background= "@android:color/transparent"
+        app:srcCompat="@drawable/btn_next_sel"
+        android:scaleType="fitCenter"/>
+
+</android.support.design.widget.CoordinatorLayout>
