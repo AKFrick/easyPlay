@@ -8,7 +8,7 @@ import android.os.IBinder;
 
 
 /**
- * Created by akfri on 02/12/18.
+ * Created by akfri on 02/12/18. Music service
  */
 
 public class MusicService extends IntentService implements
